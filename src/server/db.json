@@ -1,0 +1,1282 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Edrice Mujeyi",
+      "nickname": "Nawaz",
+      "position": "Forward",
+      "number": 15,
+      "goals": 8,
+      "assists": 3,
+      "cleanSheets": 0,
+      "gamesPlayed": 7,
+      "playerImage": "https://placehold.co/300x300?text=Edrice"
+    },
+    {
+      "id": 2,
+      "name": "Blessing Zvinoitavamwe",
+      "nickname": "Bleja",
+      "position": "Forward",
+      "number": 9,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "gamesPlayed": 4,
+      "playerImage": "https://placehold.co/300x300?text=Bleja"
+    },
+    {
+      "id": 3,
+      "name": "Abel Makuvise",
+      "nickname": "Svari",
+      "position": "Forward",
+      "number": 11,
+      "goals": 1,
+      "assists": 2,
+      "cleanSheets": 0,
+      "gamesPlayed": 2,
+      "playerImage": "https://placehold.co/300x300?text=Svari"
+    },
+    {
+      "id": 4,
+      "name": "Vincent Mukumba",
+      "nickname": "Vincho",
+      "position": "Forward",
+      "number": 7,
+      "goals": 3,
+      "assists": 3,
+      "cleanSheets": 0,
+      "gamesPlayed": 8,
+      "playerImage": "https://placehold.co/300x300?text=Vincho"
+    },
+    {
+      "id": 5,
+      "name": "Shephard Mukarati",
+      "nickname": "PSG",
+      "position": "Forward",
+      "number": 17,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "gamesPlayed": 3,
+      "playerImage": "https://placehold.co/300x300?text=PSG"
+    },
+    {
+      "id": 6,
+      "name": "Simbarashe Borerwa",
+      "nickname": "Jah Bhora",
+      "position": "Forward",
+      "number": 17,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "gamesPlayed": 2,
+      "playerImage": "https://placehold.co/300x300?text=Jah_Bhora"
+    },
+    {
+      "id": 7,
+      "name": "Godfrey Rwodzi",
+      "nickname": "Goda",
+      "position": "Forward",
+      "number": 19,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "gamesPlayed": 1,
+      "playerImage": "https://placehold.co/300x300?text=Goda"
+    },
+    {
+      "id": 8,
+      "name": "Kudzai Muganhu",
+      "nickname": "Mahrez",
+      "position": "Forward",
+      "number": 30,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 0,
+      "gamesPlayed": 6,
+      "playerImage": "https://placehold.co/300x300?text=Mahrez"
+    },
+    {
+      "id": 9,
+      "name": "Alious Jamela",
+      "nickname": "Bambo",
+      "position": "Midfielder",
+      "number": 8,
+      "goals": 0,
+      "assists": 5,
+      "cleanSheets": 0,
+      "gamesPlayed": 11,
+      "playerImage": "https://placehold.co/300x300?text=Jamela"
+    },
+    {
+      "id": 10,
+      "name": "Delight Mwadira",
+      "nickname": "Mashefu",
+      "position": "Midfielder",
+      "number": 13,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 0,
+      "gamesPlayed": 10,
+      "playerImage": "https://placehold.co/300x300?text=Delight"
+    },
+    {
+      "id": 11,
+      "name": "Milton Bosha",
+      "nickname": "Milito",
+      "position": "Midfielder",
+      "number": 4,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 0,
+      "gamesPlayed": 9,
+      "playerImage": "https://placehold.co/300x300?text=Milito"
+    },
+    {
+      "id": 12,
+      "name": "Providence Mashuro",
+      "nickname": "Shule",
+      "position": "Midfielder",
+      "number": 17,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 0,
+      "gamesPlayed": 10,
+      "playerImage": "https://placehold.co/300x300?text=Shule"
+    },
+    {
+      "id": 13,
+      "name": "Blessed Shoko",
+      "nickname": "Tsoko",
+      "position": "Midfielder",
+      "number": 14,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "gamesPlayed": 5,
+      "playerImage": "https://placehold.co/300x300?text=Tsoko"
+    },
+    {
+      "id": 14,
+      "name": "Edward Mapuranga",
+      "nickname": "Dos",
+      "position": "Midfielder",
+      "number": 14,
+      "goals": 1,
+      "assists": 3,
+      "cleanSheets": 0,
+      "gamesPlayed": 8,
+      "playerImage": "https://placehold.co/300x300?text=Dos"
+    },
+    {
+      "id": 15,
+      "name": "Tanaka Muganhu",
+      "nickname": "Tan tan",
+      "position": "Midfielder",
+      "number": 14,
+      "goals": 2,
+      "assists": 1,
+      "cleanSheets": 0,
+      "gamesPlayed": 6,
+      "playerImage": "https://placehold.co/300x300?text=Tan_tan"
+    },
+    {
+      "id": 16,
+      "name": "Author Masocha",
+      "nickname": "Levels",
+      "position": "Midfielder",
+      "number": 14,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0,
+      "gamesPlayed": 1,
+      "playerImage": "https://placehold.co/300x300?text=Levels"
+    },
+    {
+      "id": 17,
+      "name": "Munyeketi Munyaradzi",
+      "nickname": "Kimmich",
+      "position": "Midfielder",
+      "number": 16,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 0,
+      "gamesPlayed": 6,
+      "playerImage": "https://placehold.co/300x300?text=Kimmich"
+    },
+    {
+      "id": 18,
+      "name": "Lordship Sithole",
+      "nickname": "Lord",
+      "position": "Defender",
+      "number": 5,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 5,
+      "gamesPlayed": 13,
+      "playerImage": "https://placehold.co/300x300?text=Lord"
+    },
+    {
+      "id": 19,
+      "name": "Nokutenda Makumbe",
+      "nickname": "Noku",
+      "position": "Defender",
+      "number": 4,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 3,
+      "gamesPlayed": 11,
+      "playerImage": "https://placehold.co/300x300?text=Noku"
+    },
+    {
+      "id": 20,
+      "name": "Gerald Wafawanaka",
+      "nickname": "Gerrygold",
+      "position": "Defender",
+      "number": 3,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 4,
+      "gamesPlayed": 7,
+      "playerImage": "https://placehold.co/300x300?text=Gerrygold"
+    },
+    {
+      "id": 21,
+      "name": "Alban Makwarimba",
+      "nickname": "Bhani",
+      "position": "Defender",
+      "number": 16,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 2,
+      "gamesPlayed": 8,
+      "playerImage": "https://placehold.co/300x300?text=Bhani"
+    },
+    {
+      "id": 22,
+      "name": "Musa Chasepa",
+      "nickname": "Inter",
+      "position": "Defender",
+      "number": 2,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 2,
+      "gamesPlayed": 9,
+      "playerImage": "https://placehold.co/300x300?text=Inter"
+    },
+    {
+      "id": 23,
+      "name": "Patrick Chikwashiwa",
+      "nickname": "Tsano",
+      "position": "Defender",
+      "number": 22,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 3,
+      "gamesPlayed": 6,
+      "playerImage": "https://placehold.co/300x300?text=Tsano"
+    },
+    {
+      "id": 24,
+      "name": "Ian Pisirai",
+      "nickname": "Ian",
+      "position": "Defender",
+      "number": 20,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "gamesPlayed": 5,
+      "playerImage": "https://placehold.co/300x300?text=Ian"
+    },
+    {
+      "id": 25,
+      "name": "Leeroy Mamombe",
+      "nickname": "Maleedza",
+      "position": "Defender",
+      "number": 24,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1,
+      "gamesPlayed": 4,
+      "playerImage": "https://placehold.co/300x300?text=Maleedza"
+    },
+    {
+      "id": 26,
+      "name": "Bruce Tanaka Venganai",
+      "nickname": "Tanaka",
+      "position": "Defender",
+      "number": 21,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 2,
+      "gamesPlayed": 6,
+      "playerImage": "https://placehold.co/300x300?text=Tanaka"
+    },
+    {
+      "id": 27,
+      "name": "Knowledge Sheche",
+      "nickname": "Ba Rashy",
+      "position": "Goalkeeper",
+      "number": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 2,
+      "gamesPlayed": 5,
+      "playerImage": "https://placehold.co/300x300?text=Ba_Rashy",
+      "savePercentage": 60
+    },
+    {
+      "id": 28,
+      "name": "Forster Chikusvura",
+      "nickname": "Fofo",
+      "position": "Goalkeeper",
+      "number": 23,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 2,
+      "gamesPlayed": 8,
+      "playerImage": "https://placehold.co/300x300?text=Fofo",
+      "savePercentage": 70
+    }
+  ],
+  "matches": [
+    {
+      "id": 8,
+      "homeTeam": "Tango FC",
+      "awayTeam": "Safeguard Stars",
+      "homeScore": 3,
+      "awayScore": 2,
+      "date": "2026-03-21",
+      "time": "15:00",
+      "venue": "Shakashe Stadium",
+      "status": "completed",
+      "competition": "League",
+      "playerOfTheMatch": "Edrice Mujeyi",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Tanaka Muganhu",
+          "minute": 15
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Edward Mapuranga",
+          "minute": 38
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Edrice Mujeyi",
+          "minute": 80
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "homeTeam": "Tango FC",
+      "awayTeam": "Exor Stars",
+      "homeScore": 0,
+      "awayScore": 1,
+      "date": "2026-03-28",
+      "time": "15:00",
+      "venue": "Shakashe Stadium",
+      "status": "completed",
+      "competition": "League",
+      "events": []
+    },
+    {
+      "id": 10,
+      "homeTeam": "Motor Sales FC",
+      "awayTeam": "Tango FC",
+      "homeScore": 0,
+      "awayScore": 1,
+      "date": "2026-04-04",
+      "time": "15:00",
+      "venue": "Mucheke Stadium",
+      "status": "completed",
+      "competition": "League",
+      "playerOfTheMatch": "Patrick Chikwashiwa",
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Patrick Chikwashiwa",
+          "minute": 30
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "homeTeam": "FC Duchima",
+      "awayTeam": "Tango FC",
+      "homeScore": 0,
+      "awayScore": 0,
+      "date": "2026-04-11",
+      "time": "15:00",
+      "venue": "Border Stadium",
+      "status": "completed",
+      "competition": "League",
+      "events": []
+    },
+    {
+      "id": 12,
+      "homeTeam": "Tango FC",
+      "awayTeam": "Sparklions",
+      "homeScore": 1,
+      "awayScore": 2,
+      "date": "2026-04-18",
+      "time": "15:00",
+      "venue": "Shakashe Stadium",
+      "status": "completed",
+      "competition": "League",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Munyeketi Munyaradzi",
+          "minute": 67
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "homeTeam": "Tango FC",
+      "awayTeam": "Prison Warriors",
+      "homeScore": 3,
+      "awayScore": 2,
+      "date": "2026-04-25",
+      "time": "15:00",
+      "venue": "Shakashe Stadium",
+      "status": "completed",
+      "competition": "League",
+      "playerOfTheMatch": "Tanaka Muganhu",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Edrice Mujeyi",
+          "minute": 22
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Edrice Mujeyi",
+          "minute": 30
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Tanaka Muganhu",
+          "minute": 41
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "homeTeam": "Morefire FC",
+      "awayTeam": "Tango FC",
+      "homeScore": 1,
+      "awayScore": 3,
+      "date": "2026-05-02",
+      "time": "15:00",
+      "venue": "Pecos Arena Stadium",
+      "status": "completed",
+      "competition": "League",
+      "playerOfTheMatch": "Abel Makuvise",
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Gerald Wafawanaka",
+          "minute": 26
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Abel Makuvise",
+          "assist": "Edrice Mujeyi",
+          "minute": 60
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Vincent Mukumba",
+          "assist": "Edrice Mujeyi",
+          "minute": 70
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "homeTeam": "Light Of God",
+      "awayTeam": "Tango FC",
+      "homeScore": 1,
+      "awayScore": 1,
+      "date": "2026-05-09",
+      "time": "15:00",
+      "venue": "Mamutse Stadium",
+      "status": "completed",
+      "competition": "League",
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Kudzai Muganhu",
+          "assist": "Edrice Mujeyi",
+          "minute": 80
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "homeTeam": "Tango FC",
+      "awayTeam": "Thorglot All Stars",
+      "homeScore": 2,
+      "awayScore": 1,
+      "date": "2026-05-16",
+      "time": "15:00",
+      "venue": "Shakashe Stadium",
+      "status": "completed",
+      "competition": "League",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Edrice Mujeyi",
+          "assist": "Kudzai Muganhu",
+          "minute": 20
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Edrice Mujeyi",
+          "minute": 80
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "homeTeam": "Tango FC",
+      "awayTeam": "Careful Driving Academy",
+      "homeScore": 1,
+      "awayScore": 2,
+      "date": "2026-05-23",
+      "time": "15:00",
+      "venue": "Shakashe Stadium",
+      "status": "completed",
+      "competition": "League",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Vincent Mukumba",
+          "assist": "Edrice Mujeyi",
+          "minute": 75
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "homeTeam": "Mutimurefu",
+      "awayTeam": "Tango FC",
+      "homeScore": 0,
+      "awayScore": 1,
+      "date": "2026-05-30",
+      "time": "15:00",
+      "venue": "Ndarama High Stadium",
+      "status": "completed",
+      "competition": "League",
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Edrice Mujeyi",
+          "minute": 70
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "homeTeam": "Tango FC",
+      "awayTeam": "GZU FC",
+      "homeScore": 3,
+      "awayScore": 0,
+      "date": "2026-06-06",
+      "time": "15:00",
+      "venue": "Shakashe Stadium",
+      "status": "completed",
+      "competition": "League",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Vincent Mukumba",
+          "minute": 13
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Edrice Mujeyi",
+          "minute": 34
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Edrice Mujeyi",
+          "minute": 60
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "homeTeam": "Tango FC",
+      "awayTeam": "ZRP Masvingo",
+      "homeScore": 2,
+      "awayScore": 2,
+      "date": "2026-06-13",
+      "time": "15:00",
+      "venue": "Shakashe Stadium",
+      "status": "completed",
+      "competition": "League",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Edrice Mujeyi",
+          "minute": 18
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Providence Mashuro",
+          "minute": 40
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "homeTeam": "ZINWA Runde",
+      "awayTeam": "Tango FC",
+      "homeScore": null,
+      "awayScore": null,
+      "date": "2026-06-20",
+      "time": "15:00",
+      "venue": "Mucheke B Arena 2",
+      "status": "upcoming",
+      "competition": "League",
+      "events": []
+    },
+    {
+      "id": 22,
+      "homeTeam": "Steers FC",
+      "awayTeam": "Tango FC",
+      "homeScore": null,
+      "awayScore": null,
+      "date": "2026-06-27",
+      "time": "15:00",
+      "venue": "Pangolin Ground",
+      "status": "upcoming",
+      "competition": "League",
+      "events": []
+    },
+    {
+      "id": 23,
+      "homeTeam": "Flesk FC",
+      "awayTeam": "Tango FC",
+      "homeScore": null,
+      "awayScore": null,
+      "date": "2026-07-04",
+      "time": "15:00",
+      "venue": "Teachers Ground",
+      "status": "upcoming",
+      "competition": "League",
+      "events": []
+    },
+    {
+      "id": 24,
+      "homeTeam": "Tango FC",
+      "awayTeam": "Mugodhi FC",
+      "homeScore": null,
+      "awayScore": null,
+      "date": "2026-07-11",
+      "time": "15:00",
+      "venue": "Shakashe Stadium",
+      "status": "upcoming",
+      "competition": "League",
+      "events": []
+    },
+    {
+      "id": 25,
+      "homeTeam": "Tango FC",
+      "awayTeam": "Chibuku",
+      "homeScore": null,
+      "awayScore": null,
+      "date": "2026-07-18",
+      "time": "15:00",
+      "venue": "Shakashe Stadium",
+      "status": "upcoming",
+      "competition": "League",
+      "events": []
+    },
+    {
+      "id": 26,
+      "homeTeam": "Tango FC",
+      "awayTeam": "Cotrad",
+      "homeScore": null,
+      "awayScore": null,
+      "date": "2026-07-25",
+      "time": "15:00",
+      "venue": "Shakashe Stadium",
+      "status": "upcoming",
+      "competition": "League",
+      "events": []
+    }
+  ],
+  "teams": [
+    {
+      "name": "Flesk FC",
+      "stats": [
+        12,
+        8,
+        4,
+        0,
+        34,
+        7,
+        27,
+        28
+      ]
+    },
+    {
+      "name": "Steers FC",
+      "stats": [
+        12,
+        7,
+        4,
+        1,
+        24,
+        12,
+        12,
+        25
+      ]
+    },
+    {
+      "name": "Careful Driving Academy",
+      "stats": [
+        13,
+        7,
+        4,
+        2,
+        30,
+        21,
+        9,
+        25
+      ]
+    },
+    {
+      "name": "Tango FC",
+      "stats": [
+        13,
+        7,
+        3,
+        3,
+        21,
+        14,
+        7,
+        24
+      ]
+    },
+    {
+      "name": "Safeguard Stars",
+      "stats": [
+        13,
+        8,
+        0,
+        5,
+        29,
+        26,
+        3,
+        24
+      ]
+    },
+    {
+      "name": "Sparklions",
+      "stats": [
+        13,
+        6,
+        5,
+        2,
+        27,
+        15,
+        12,
+        23
+      ]
+    },
+    {
+      "name": "Exor Stars",
+      "stats": [
+        12,
+        7,
+        1,
+        4,
+        20,
+        15,
+        5,
+        22
+      ]
+    },
+    {
+      "name": "Chibuku",
+      "stats": [
+        12,
+        6,
+        1,
+        5,
+        28,
+        19,
+        9,
+        19
+      ]
+    },
+    {
+      "name": "Motor Sales FC",
+      "stats": [
+        13,
+        5,
+        3,
+        5,
+        24,
+        21,
+        3,
+        18
+      ]
+    },
+    {
+      "name": "Prison Warriors",
+      "stats": [
+        13,
+        5,
+        3,
+        5,
+        24,
+        24,
+        0,
+        18
+      ]
+    },
+    {
+      "name": "Morefire FC",
+      "stats": [
+        13,
+        5,
+        3,
+        5,
+        20,
+        21,
+        -1,
+        18
+      ]
+    },
+    {
+      "name": "Light Of God",
+      "stats": [
+        12,
+        4,
+        4,
+        4,
+        21,
+        20,
+        1,
+        16
+      ]
+    },
+    {
+      "name": "Mugodhi FC",
+      "stats": [
+        13,
+        4,
+        3,
+        6,
+        15,
+        27,
+        -12,
+        15
+      ]
+    },
+    {
+      "name": "Cotrad",
+      "stats": [
+        11,
+        4,
+        2,
+        5,
+        20,
+        24,
+        -4,
+        14
+      ]
+    },
+    {
+      "name": "Mutimurefu",
+      "stats": [
+        12,
+        4,
+        2,
+        6,
+        14,
+        22,
+        -8,
+        14
+      ]
+    },
+    {
+      "name": "FC Duchima",
+      "stats": [
+        13,
+        2,
+        6,
+        5,
+        17,
+        22,
+        -5,
+        12
+      ]
+    },
+    {
+      "name": "ZRP Masvingo",
+      "stats": [
+        13,
+        3,
+        2,
+        8,
+        24,
+        34,
+        -10,
+        11
+      ]
+    },
+    {
+      "name": "ZINWA Runde",
+      "stats": [
+        13,
+        2,
+        3,
+        8,
+        17,
+        37,
+        -20,
+        9
+      ]
+    },
+    {
+      "name": "GZU FC",
+      "stats": [
+        13,
+        2,
+        2,
+        9,
+        18,
+        31,
+        -13,
+        8
+      ]
+    },
+    {
+      "name": "Thorglot All Stars",
+      "stats": [
+        13,
+        1,
+        3,
+        9,
+        18,
+        33,
+        -15,
+        6
+      ]
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "🏆 MOSSL Champions 2025/26 Campaign Finishes Strong!",
+      "date": "February 22, 2026",
+      "category": "Champions",
+      "p1": "Tango FC etched their name into league history with an impressive 86-point season in MOSSL. The campaign was defined by consistency, resilience, and a collective spirit that made the side unstoppable.",
+      "p2": "Under deep tactical coordination, every single player contributed—across defense, midfield, and attack—showcasing unparalleled balance and depth that thrilled the local community.",
+      "imageUrl": "https://placehold.co/800x450?text=Tango_FC_Champions"
+    },
+    {
+      "id": 2,
+      "title": "🎯 Pre-Season Core Training Camp Begins",
+      "date": "February 28, 2026",
+      "category": "Training",
+      "p1": "Players are officially back in camp for highly focused fitness modules, technical and tactical drills, and team cohesion building in Masvingo ahead of the upcoming championship fixtures.",
+      "p2": "Assistant Coaches are pushing intensive routines designed to maximize conditioning and tactical transitions safely in dynamic match simulations.",
+      "imageUrl": "https://placehold.co/800x450?text=PreSeason_Training"
+    },
+    {
+      "id": 3,
+      "title": "👥 Dynamic New Signings Added to Squad",
+      "date": "March 10, 2026",
+      "category": "Transfers",
+      "p1": "Tango FC has officially added fresh attacking and defensive talents to further bolster squad depth and technical qualities ahead of local tournaments.",
+      "p2": "The team captains and administrative committee formally welcomed players to the Masvingo community base with custom presentation jerseys.",
+      "imageUrl": "https://placehold.co/800x450?text=New_Signings"
+    }
+  ],
+  "technicalTeam": [
+    {
+      "id": 1,
+      "name": "Taruvinga Mutangiranwa",
+      "role": "CEO",
+      "title": "Chief Executive Officer",
+      "experience": "10 Years",
+      "description": "Leading Tango FC with strategic long-term vision, administrative excellence, and community dedication.",
+      "image": "https://placehold.co/150x150?text=CEO"
+    },
+    {
+      "id": 2,
+      "name": "Alious Jamela",
+      "role": "Director",
+      "title": "Football Director",
+      "experience": "10 Years",
+      "description": "Overseeing strategic squad operations, player recruitment pathways, and elite technical integrations.",
+      "image": "https://placehold.co/150x150?text=Director"
+    },
+    {
+      "id": 3,
+      "name": "Pride Chikunguru",
+      "role": "Team Manager",
+      "title": "Team Manager — Logistics & Operations",
+      "experience": "7 Years",
+      "description": "Managing overall logistics, community events, matchday coordinates, and safe transport routes.",
+      "image": "https://placehold.co/150x150?text=Manager"
+    },
+    {
+      "id": 4,
+      "name": "Edrice Mujeyi",
+      "role": "Captain",
+      "title": "Team Captain & Player Coach",
+      "experience": "8 Years",
+      "description": "Guiding squad leadership, motivating field execution, leading team strategy, and training core players.",
+      "image": "https://placehold.co/150x150?text=Captain"
+    },
+    {
+      "id": 5,
+      "name": "Newsber Kwangwa",
+      "role": "Coach",
+      "title": "Assistant Coach — Offensive",
+      "experience": "8 Years",
+      "description": "Integrating elite offensive transitions, fast-break scoring schemes, and final-third creative drills.",
+      "image": "https://placehold.co/150x150?text=Coach_Off"
+    },
+    {
+      "id": 6,
+      "name": "Robert Marongwe",
+      "role": "Assistant Coach",
+      "title": "Goalkeeper Coach — Defensive",
+      "experience": "7 Years",
+      "description": "Drilling reactive goal stance formats, clean sheets structure, and safe defensive set-pieces.",
+      "image": "https://placehold.co/150x150?text=Coach_Def"
+    },
+    {
+      "id": 7,
+      "name": "Milton Bosha",
+      "role": "Logistics Manager",
+      "title": "Logistics Assistant",
+      "experience": "8 Years",
+      "description": "Directing player apparel operations, kit design management, hydration schedules, and training equipment.",
+      "image": "https://placehold.co/150x150?text=Logistics"
+    },
+    {
+      "id": 8,
+      "name": "Paida Tsuro",
+      "role": "Head of recruitment",
+      "title": "Chief Scout",
+      "experience": "8 Years",
+      "description": "Evaluating local neighborhood talents, youth football indicators, and recruitment pipelines.",
+      "image": "https://placehold.co/150x150?text=Chief_Scout"
+    }
+  ],
+  "history": {
+    "foundedYear": 2015,
+    "founder": "Sports Community Initiative",
+    "club": "Tango Football Club",
+    "stadium": "Rujeko Stadium – PaMuonde",
+    "capacity": 300,
+    "description": "Tango Football Club is a passionate and ambitious football team dedicated to excellence on and off the pitch. Since our founding in 2015, the club has grown into a highly competitive force while promoting teamwork, discipline, and community spirit. Based at Rujeko Stadium — PaMuonde, Tango FC continues to develop local talent and inspire supporters through exciting football and strong values.",
+    "philosophy": {
+      "title": "Three Pillars of Core Club Philosophy",
+      "description": "At Tango FC, we believe in developing not just skilled footballers, but well-rounded individuals who contribute positively to our community. Our pillars guide every decision:",
+      "pillars": [
+        {
+          "name": "Excellence",
+          "description": "Striving for perfection in every aspect of our game, tactical planning, fitness, and administration."
+        },
+        {
+          "name": "Community",
+          "description": "Giving back to Masvingo through youth development, local sponsorships, and football initiatives."
+        },
+        {
+          "name": "Integrity",
+          "description": "Conducting ourselves with absolute honesty, respect, and high-quality sportsmanship on and off the pitch."
+        }
+      ]
+    },
+    "achievements": [
+      {
+        "year": "2025/26",
+        "title": "MOSSL Champions",
+        "description": "Won the Masvingo Social Soccer League with outstanding performance: 27 wins, 6 draws, 3 losses from 38 matches (86 points)"
+      },
+      {
+        "year": "2024",
+        "title": "MOSS Cup Winners",
+        "description": "Claimed the Provincial Cup trophy in a high-stakes penalty shootout final under intense rain."
+      },
+      {
+        "year": "2023",
+        "title": "League Runners Up",
+        "description": "Secured 2nd position with a young developing roster while boosting team cohesion formats."
+      }
+    ],
+    "milestones": [
+      {
+        "year": "2015",
+        "desc": "Club Founded by Taruvinga Mutangiranwa and Sports Community Initiative."
+      },
+      {
+        "year": "2018",
+        "desc": "First League Title secured with an unbeaten home record at PaMuonde."
+      },
+      {
+        "year": "2020",
+        "desc": "Launch of Youth development program to mentor Masvingo local talent paths."
+      },
+      {
+        "year": "2022",
+        "desc": "Stadium Expansion at PaMuonde: upgraded terrain safety boundaries."
+      },
+      {
+        "year": "2025",
+        "desc": "Secured MOSSL Champions trophy with record-breaking goal ratios."
+      }
+    ]
+  },
+  "gallery": [
+    {
+      "id": 1,
+      "url": "https://placehold.co/600x600?text=New_Jersey_Launch",
+      "title": "2026 New Kit Presentation Launch",
+      "category": "newseason"
+    },
+    {
+      "id": 2,
+      "url": "https://placehold.co/600x600?text=Championship_Glow",
+      "title": "Trophy Presentation Matchday Celebration",
+      "category": "champions"
+    },
+    {
+      "id": 3,
+      "url": "https://placehold.co/600x600?text=Matchday_Squad",
+      "title": "Matchday Squad Warm-up Session PaMuonde",
+      "category": "matchday"
+    },
+    {
+      "id": 4,
+      "url": "https://placehold.co/600x600?text=Action_Sequence",
+      "title": "In-Game Offensive Action Sequence",
+      "category": "matchday"
+    },
+    {
+      "id": 5,
+      "url": "https://placehold.co/600x600?text=Shield_Lifting",
+      "title": "MOSSL Shield Lifting Ceremony Victory",
+      "category": "champions"
+    },
+    {
+      "id": 6,
+      "url": "https://placehold.co/600x600?text=Pre_Match_Lineup",
+      "title": "The Forces Pre-Match Team Lineup Assembly",
+      "category": "matchday"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "url": "https://www.w3sheets.com/media/clip1.mp4",
+      "title": "Champions Trophy Lift Parade",
+      "category": "champions"
+    },
+    {
+      "id": 2,
+      "url": "https://www.w3sheets.com/media/clip2.mp4",
+      "title": "Pre-Match Intensity Warmups",
+      "category": "matchday"
+    },
+    {
+      "id": 3,
+      "url": "https://www.w3sheets.com/media/clip3.mp4",
+      "title": "Matchday Final-Third Goals Reel",
+      "category": "matchday"
+    }
+  ],
+  "playerMonthlyVotes": {
+    "1": 1,
+    "28": 1
+  },
+  "polls": [
+    {
+      "id": 1,
+      "question": "What is our absolute priority target for the upcoming 2026 Season Launch?",
+      "options": [
+        {
+          "id": "opt-1",
+          "text": "Signing a top-tier Forward to support Nawazi up front",
+          "votes": 42
+        },
+        {
+          "id": "opt-2",
+          "text": "Renovating our training facilities in Masvingo",
+          "votes": 18
+        },
+        {
+          "id": "opt-3",
+          "text": "Securing a new primary shirt sponsorship contract",
+          "votes": 29
+        },
+        {
+          "id": "opt-4",
+          "text": "Launching an official Under-18 Academy division",
+          "votes": 35
+        }
+      ],
+      "active": true,
+      "createdAt": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "question": "Which local matchday atmosphere was the most electrifying during the recent cup run?",
+      "options": [
+        {
+          "id": "opt-1",
+          "text": "Rujeko Stadium — PaMuonde (Main Derby)",
+          "votes": 65
+        },
+        {
+          "id": "opt-2",
+          "text": "Mucheke Stadium (Away Semifinals)",
+          "votes": 24
+        },
+        {
+          "id": "opt-3",
+          "text": "Masvingo Sports Club (Season Opener)",
+          "votes": 12
+        }
+      ],
+      "active": false,
+      "createdAt": "2026-06-10T12:00:00.000Z"
+    }
+  ]
+}

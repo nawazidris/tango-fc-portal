@@ -1,0 +1,6 @@
+{
+  "name": "Tango FC Portal",
+  "description": "The official digital platform for Tango Football Club, featuring league standings, fixtures, player statistics, visual match centers, and secure administrator controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
