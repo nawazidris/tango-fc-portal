@@ -71,7 +71,7 @@
       "assists": 0,
       "cleanSheets": 0,
       "gamesPlayed": 2,
-      "playerImage": "/images/"
+      "playerImage": "/images/jahbhora.jpg"
     },
     {
       "id": 7,
@@ -86,18 +86,6 @@
       "playerImage": "/images/goda.jpg"
     },
     {
-      "id": 29,
-      "name": "Tafadzwa Magande",
-      "nickname": "Tife",
-      "position": "Forward",
-      "number": 17,
-      "goals": 1,
-      "assists": 0,
-      "cleanSheets": 0,
-      "gamesPlayed": 1,
-      "playerImage": "/images/"
-    },
-    {
       "id": 8,
       "name": "Kudzai Muganhu",
       "nickname": "Mahrez",
@@ -107,7 +95,7 @@
       "assists": 1,
       "cleanSheets": 0,
       "gamesPlayed": 6,
-      "playerImage": "/images/"
+      "playerImage": "/images/mahrez.jpg"
     },
     {
       "id": 9,
@@ -287,7 +275,7 @@
       "assists": 0,
       "cleanSheets": 3,
       "gamesPlayed": 6,
-      "playerImage": "/images/"
+      "playerImage": "/images/tsano.jpg"
     },
     {
       "id": 24,
@@ -657,7 +645,7 @@
         {
           "type": "goal",
           "team": "home",
-          "player": "Tafadzwa Magande",
+          "player": "Edrice Mujeyi",
           "minute": 18
         },
         {
@@ -1046,7 +1034,7 @@
       "title": "Chief Executive Officer",
       "experience": "10 Years",
       "description": "Leading Tango FC with strategic long-term vision, administrative excellence, and community dedication.",
-      "image": "/images/tango.jpg"
+      "image": "https://placehold.co/150x150?text=CEO"
     },
     {
       "id": 2,
@@ -1055,7 +1043,7 @@
       "title": "Football Director",
       "experience": "10 Years",
       "description": "Overseeing strategic squad operations, player recruitment pathways, and elite technical integrations.",
-      "image": "/images/jamela.jpg"
+      "image": "https://placehold.co/150x150?text=Director"
     },
     {
       "id": 3,
@@ -1064,7 +1052,7 @@
       "title": "Team Manager — Logistics & Operations",
       "experience": "7 Years",
       "description": "Managing overall logistics, community events, matchday coordinates, and safe transport routes.",
-      "image": "/images/tango1.jpg"
+      "image": "https://placehold.co/150x150?text=Manager"
     },
     {
       "id": 4,
@@ -1073,7 +1061,7 @@
       "title": "Team Captain & Player Coach",
       "experience": "8 Years",
       "description": "Guiding squad leadership, motivating field execution, leading team strategy, and training core players.",
-      "image": "/images/idris.jpg"
+      "image": "https://placehold.co/150x150?text=Captain"
     },
     {
       "id": 5,
@@ -1082,7 +1070,7 @@
       "title": "Assistant Coach — Offensive",
       "experience": "8 Years",
       "description": "Integrating elite offensive transitions, fast-break scoring schemes, and final-third creative drills.",
-      "image": "/images/tango.jpg"
+      "image": "https://placehold.co/150x150?text=Coach_Off"
     },
     {
       "id": 6,
@@ -1091,7 +1079,7 @@
       "title": "Goalkeeper Coach — Defensive",
       "experience": "7 Years",
       "description": "Drilling reactive goal stance formats, clean sheets structure, and safe defensive set-pieces.",
-      "image": "/images/tango2.jpg"
+      "image": "https://placehold.co/150x150?text=Coach_Def"
     },
     {
       "id": 7,
@@ -1100,7 +1088,7 @@
       "title": "Logistics Assistant",
       "experience": "8 Years",
       "description": "Directing player apparel operations, kit design management, hydration schedules, and training equipment.",
-      "image": "/images/milito1.jpg"
+      "image": "https://placehold.co/150x150?text=Logistics"
     },
     {
       "id": 8,
@@ -1109,7 +1097,7 @@
       "title": "Chief Scout",
       "experience": "8 Years",
       "description": "Evaluating local neighborhood talents, youth football indicators, and recruitment pipelines.",
-      "image": "/images/tango3.jpg"
+      "image": "https://placehold.co/150x150?text=Chief_Scout"
     }
   ],
   "history": {
@@ -1180,37 +1168,37 @@
   "gallery": [
     {
       "id": 1,
-      "url": "/images/tango16.jpg",
+      "url": "https://placehold.co/600x600?text=New_Jersey_Launch",
       "title": "2026 New Kit Presentation Launch",
       "category": "newseason"
     },
     {
       "id": 2,
-      "url": "/images/tango14.jpg",
+      "url": "https://placehold.co/600x600?text=Championship_Glow",
       "title": "Trophy Presentation Matchday Celebration",
       "category": "champions"
     },
     {
       "id": 3,
-      "url": "/images/IMG_3518.jpg",
+      "url": "https://placehold.co/600x600?text=Matchday_Squad",
       "title": "Matchday Squad Warm-up Session PaMuonde",
       "category": "matchday"
     },
     {
       "id": 4,
-      "url": "/images/IMG_3510.jpg",
+      "url": "https://placehold.co/600x600?text=Action_Sequence",
       "title": "In-Game Offensive Action Sequence",
       "category": "matchday"
     },
     {
       "id": 5,
-      "url": "/images/tango15.jpg",
+      "url": "https://placehold.co/600x600?text=Shield_Lifting",
       "title": "MOSSL Shield Lifting Ceremony Victory",
       "category": "champions"
     },
     {
       "id": 6,
-      "url": "/images/IMG_3520.jpg",
+      "url": "https://placehold.co/600x600?text=Pre_Match_Lineup",
       "title": "The Forces Pre-Match Team Lineup Assembly",
       "category": "matchday"
     }
@@ -1236,8 +1224,7 @@
     }
   ],
   "playerMonthlyVotes": {
-    "1": 4,
-    "9": 1,
+    "1": 2,
     "28": 1
   },
   "polls": [
