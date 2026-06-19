@@ -1,5 +1,33 @@
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-xs: 480px;
+  --font-size-xxs: 0.625rem;
+
+  --animate-scaleUp: scaleUp 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-fadeIn: fadeIn 0.2s ease-out;
+
+  @keyframes scaleUp {
+    0% {
+      transform: scale(0.95);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
 @utility scrollbar-none {
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -23,3 +51,62 @@
   }
 }
 
+/* Responsive root font scaling for desktop and large monitors */
+html {
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1440px) {
+  html {
+    font-size: 18.5px;
+  }
+}
+
+@media (min-width: 1920px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 2560px) {
+  html {
+    font-size: 24px;
+  }
+}
+
+/* Scaling hardcoded arbitrary font-sizes (text-[9px], text-[10px], etc.) on big screens */
+@media (min-width: 1440px) {
+  [class*="text-[8px]"], [class*="text-[9px]"], [class*="text-[10px]"] {
+    font-size: 0.75rem !important; /* ~13.8px at 18.5px base */
+  }
+  [class*="text-[11px]"] {
+    font-size: 0.8rem !important; /* ~14.8px at 18.5px base */
+  }
+  [class*="text-xxs"] {
+    font-size: 0.75rem !important; /* ~13.8px */
+  }
+}
+
+@media (min-width: 1920px) {
+  [class*="text-[8px]"], [class*="text-[9px]"], [class*="text-[10px]"] {
+    font-size: 0.8rem !important; /* 16px at 20px base */
+  }
+  [class*="text-[11px]"] {
+    font-size: 0.85rem !important; /* 17px at 20px base */
+  }
+  [class*="text-xxs"] {
+    font-size: 0.8rem !important; /* 16px */
+  }
+}

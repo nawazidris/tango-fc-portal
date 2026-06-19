@@ -295,7 +295,7 @@ async function startServer() {
     const formattedVideo = {
       ...video,
       id: videoId,
-      url: video.url || "https://www.w3sheets.com/media/clip1.mp4"
+      url: video.url || "/videos/tango1.mp4"
     };
 
     if (index > -1) {

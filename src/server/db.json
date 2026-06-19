@@ -912,9 +912,9 @@
         3,
         6,
         15,
-        27,
-        -12,
-        15
+        0,
+        15,
+        0
       ]
     },
     {
@@ -964,9 +964,9 @@
         2,
         8,
         24,
-        34,
-        -10,
-        11
+        0,
+        11,
+        0
       ]
     },
     {
@@ -977,9 +977,9 @@
         3,
         8,
         17,
-        37,
-        -20,
-        9
+        0,
+        9,
+        0
       ]
     },
     {
@@ -990,9 +990,9 @@
         2,
         9,
         18,
-        31,
-        -13,
-        8
+        0,
+        8,
+        0
       ]
     },
     {
@@ -1003,9 +1003,9 @@
         3,
         9,
         18,
-        33,
-        -15,
-        6
+        0,
+        6,
+        0
       ]
     }
   ],
@@ -1218,21 +1218,39 @@
   "videos": [
     {
       "id": 1,
-      "url": "https://www.w3sheets.com/media/clip1.mp4",
+      "url": "/videos/tango1.mp4",
       "title": "Champions Trophy Lift Parade",
       "category": "champions"
     },
     {
       "id": 2,
-      "url": "https://www.w3sheets.com/media/clip2.mp4",
+      "url": "/videos/tango2.mp4",
       "title": "Pre-Match Intensity Warmups",
       "category": "matchday"
     },
     {
       "id": 3,
-      "url": "https://www.w3sheets.com/media/clip3.mp4",
+      "url": "/videos/tango3.mp4",
       "title": "Matchday Final-Third Goals Reel",
       "category": "matchday"
+    },
+    {
+      "id": 4,
+      "url": "/videos/tango4.mp4",
+      "title": "Tango FC Tactical Drills",
+      "category": "newseason"
+    },
+    {
+      "id": 5,
+      "url": "/videos/tango01.mp4",
+      "title": "Team Training Highlights",
+      "category": "newseason"
+    },
+    {
+      "id": 6,
+      "url": "/videos/tango02.mp4",
+      "title": "Masvingo Community Parade",
+      "category": "champions"
     }
   ],
   "playerMonthlyVotes": {

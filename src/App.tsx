@@ -11,7 +11,7 @@ import TechnicalTeamView from "./components/TechnicalTeamView";
 import MediaRoom from "./components/MediaRoom";
 import ClubHistoryView from "./components/ClubHistoryView";
 import AdminDashboard from "./components/AdminDashboard";
-import { ShieldCheck, CalendarRange, Trophy, Users, HelpCircle, Facebook, Instagram, Twitter } from "lucide-react";
+import { ShieldCheck, CalendarRange, Trophy, Users, HelpCircle, Facebook, Instagram, Twitter, User, LogIn, X } from "lucide-react";
 
 export default function App() {
   // Navigation State
@@ -19,8 +19,15 @@ export default function App() {
   const [selectedPlayer, setSelectedPlayer] = useState<Player | null>(null);
 
   // Authentication State
-  const [userToken, setUserToken] = useState<string | null>(() => localStorage.getItem("token-admin") || localStorage.getItem("token-coach") || localStorage.getItem("token-logistics"));
+  const [userToken, setUserToken] = useState<string | null>(() => localStorage.getItem("user-token"));
   const [userRole, setUserRole] = useState<string | null>(() => localStorage.getItem("user-role"));
+
+  // Login Modal State
+  const [isLoginOpen, setIsLoginOpen] = useState(false);
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const [loginError, setLoginError] = useState("");
+  const [isLoginLoading, setIsLoginLoading] = useState(false);
 
   // Application Data State
   const [data, setData] = useState<DatabaseState | null>(null);
@@ -64,6 +71,35 @@ export default function App() {
     setUserToken(null);
     setUserRole(null);
     setActiveTab("home");
+  };
+
+  const handleLoginSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoginError("");
+    setIsLoginLoading(true);
+
+    try {
+      const response = await fetch("/api/auth/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ username, password }),
+      });
+
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.error || "Login failed");
+      }
+
+      handleLoginSuccess(data.token, data.role);
+      setIsLoginOpen(false);
+      setUsername("");
+      setPassword("");
+      setActiveTab("admin");
+    } catch (err: any) {
+      setLoginError(err.message || "Invalid credentials.");
+    } finally {
+      setIsLoginLoading(false);
+    }
   };
 
   // Direct backend API calls with authentication token verification
@@ -438,12 +474,18 @@ export default function App() {
       case "admin":
         if (!userToken) {
           return (
-            <div className="max-w-md mx-auto my-12 bg-[#0b1929] border border-white/10 rounded-2xl p-6 text-center shadow-2xl" id="unauthorized-access">
-              <ShieldCheck className="w-12 h-12 text-red-400 mx-auto mb-3" />
+            <div className="max-w-md mx-auto my-12 bg-[#0b1929] border border-white/10 rounded-2xl p-6 text-center shadow-2xl animate-scaleUp" id="unauthorized-access">
+              <ShieldCheck className="w-12 h-12 text-amber-500 mx-auto mb-3" />
               <h3 className="text-white text-md font-bold">Portal Access Locked</h3>
-              <p className="text-gray-400 text-xs mt-1.5 leading-relaxed">
+              <p className="text-gray-400 text-xs mt-1.5 leading-relaxed mb-4">
                 Authorized credentials are required to modify rosters, scores, or bulletins. Please use any of the standard logins in the Sign-In menu.
               </p>
+              <button
+                onClick={() => setIsLoginOpen(true)}
+                className="bg-blue-600 hover:bg-blue-500 text-white font-bold px-5 py-2 rounded-xl text-xs shadow transition-all duration-200 active:scale-95 cursor-pointer"
+              >
+                Sign In Now
+              </button>
             </div>
           );
         }
@@ -492,6 +534,8 @@ export default function App() {
         userRole={userRole}
         onLogout={handleLogout}
         onLoginSuccess={handleLoginSuccess}
+        isLoginOpen={isLoginOpen}
+        setIsLoginOpen={setIsLoginOpen}
       />
 
       {/* 2. Hero Widget (rendered exclusively on landing dashboard page) */}
@@ -553,6 +597,94 @@ export default function App() {
           </p>
         </div>
       </footer>
+
+      {/* Secure Sign In Modal Overlays */}
+      {isLoginOpen && (
+        <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/90 backdrop-blur-md">
+          <div className="relative w-[92%] xs:w-full max-w-sm bg-[#0b1929] border border-white/10 rounded-2xl p-5 shadow-2xl animate-scaleUp">
+            <button
+              onClick={() => {
+                setIsLoginOpen(false);
+                setLoginError("");
+              }}
+              className="absolute top-4 right-4 text-gray-400 hover:text-white cursor-pointer"
+            >
+              <X className="w-5 h-5" />
+            </button>
+
+            <div className="text-center mb-5">
+              <div className="w-11 h-11 rounded-xl bg-blue-600/15 border border-blue-500/20 text-blue-400 flex items-center justify-center text-xl font-bold mx-auto mb-2 shadow-md shadow-blue-500/5">
+                <User className="w-4 h-4" />
+              </div>
+              <h3 className="text-white text-base font-bold">Admin Portal Login</h3>
+              <p className="text-gray-400 text-xxs mt-0.5">Authorized technical staff & administrators only</p>
+            </div>
+
+            <form onSubmit={handleLoginSubmit} className="space-y-4">
+              <div>
+                <label className="block text-gray-400 text-xxs font-bold uppercase tracking-wider mb-1">
+                  Username
+                </label>
+                <input
+                  type="text"
+                  required
+                  value={username}
+                  onChange={(e) => setUsername(e.target.value)}
+                  placeholder="e.g. admin"
+                  className="w-full bg-[#07111f] border border-white/10 focus:border-blue-500 p-2.5 rounded-xl text-white text-xs outline-none transition-colors"
+                />
+              </div>
+
+              <div>
+                <label className="block text-gray-400 text-xxs font-bold uppercase tracking-wider mb-1">
+                  Password
+                </label>
+                <input
+                  type="password"
+                  required
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  placeholder="••••••••"
+                  className="w-full bg-[#07111f] border border-white/10 focus:border-blue-500 p-2.5 rounded-xl text-white text-xs outline-none transition-colors"
+                />
+              </div>
+
+              {loginError && (
+                <div className="bg-red-500/10 border border-red-500/20 rounded-xl p-2.5 text-red-400 text-xxs font-semibold leading-relaxed">
+                  {loginError}
+                </div>
+              )}
+
+              <div className="flex gap-2.5 pt-1">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setIsLoginOpen(false);
+                    setLoginError("");
+                  }}
+                  className="flex-1 bg-white/5 hover:bg-white/10 text-white font-bold py-2.5 px-3 rounded-xl text-xs transition-all duration-200 active:scale-98 border border-white/10 cursor-pointer"
+                >
+                  Cancel
+                </button>
+                <button
+                  type="submit"
+                  disabled={isLoginLoading}
+                  className="flex-1 bg-blue-600 hover:bg-blue-500 text-white font-bold py-2.5 px-3 rounded-xl text-xs transition-all duration-200 active:scale-98 disabled:opacity-50 cursor-pointer"
+                >
+                  {isLoginLoading ? "Validating..." : "Sign In"}
+                </button>
+              </div>
+            </form>
+
+            <div className="mt-4 border-t border-white/5 pt-3.5 text-center">
+              <p className="text-[10px] text-gray-400 flex items-center justify-center gap-1.5 leading-none">
+                <ShieldCheck className="w-3.5 h-3.5 text-gray-400" />
+                Auth controls secured with Role-Based Access Toggles
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
 
     </div>
   );

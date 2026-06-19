@@ -33,8 +33,23 @@ export const BASE_TEAMS_LIST = [
 export default function StandingsView({ teams, matches }: StandingsViewProps) {
   const [searchTerm, setSearchTerm] = useState("");
 
-  // Re-calculate Standings Automatically from results dynamically!
-  const getDynamicStandings = (): any[] => {
+  // Load Standings directly if uploaded/stored, else calculate dynamically from completed matches
+  const getStandingsData = (): any[] => {
+    if (teams && teams.length > 0) {
+      return teams.map((t) => ({
+        name: t.name,
+        played: t.stats[0],
+        won: t.stats[1],
+        drawn: t.stats[2],
+        lost: t.stats[3],
+        gf: t.stats[4],
+        ga: t.stats[5],
+        gd: t.stats[6],
+        pts: t.stats[7]
+      })).sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf);
+    }
+
+    // Fallback: Re-calculate Standings Automatically from completed results dynamically!
     // 1. Initialize stats for all 20 teams
     const teamStats = BASE_TEAMS_LIST.reduce((acc, name) => {
       acc[name] = { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 };
@@ -120,7 +135,7 @@ export default function StandingsView({ teams, matches }: StandingsViewProps) {
     return first;
   };
 
-  const dynamicStandings = getDynamicStandings();
+  const dynamicStandings = getStandingsData();
 
   const filteredStandings = dynamicStandings.filter((team) =>
     team.name.toLowerCase().includes(searchTerm.toLowerCase())
